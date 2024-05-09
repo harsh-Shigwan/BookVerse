@@ -1,0 +1,39 @@
+.breadcrumbs {
+   
+    width: 100%;
+     margin: 5px auto;
+   
+   }
+   
+   .breadcrumbs > * {
+     display: inline-block;
+     margin-right: 0px;
+   
+     margin-left: 30px;
+ 
+     
+   }
+   
+   .breadcrumbs .crumbs::after {
+     content: ' > '; /* Added space around the '>' */
+     margin-left: 10px;
+   
+   }
+   
+   .breadcrumbs .crumbs:last-child::after {
+     content: ''; /* Set content to an empty string for the last child */
+     margin-left: 0px;
+     background-color: brown;
+   }
+   
+   .breadcrumbs .crumbs a {
+     color: var(--Text-Heading-Dark, #27272E);
+     font-family: Inter;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 136.023%; /* 24.484px */
+     
+    color: #393280;
+   }
+   
