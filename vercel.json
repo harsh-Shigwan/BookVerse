@@ -1,5 +1,5 @@
 {
-    "rewrites": [
-        {"source": "/api/:path*","destination": "https://softwium.com/api/:path*"}
-    ]
-}
+    "rewrites":  [
+        {"source": "/(.*)", "destination": "/"}
+     ]
+ }
