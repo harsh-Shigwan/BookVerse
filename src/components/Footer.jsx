@@ -47,11 +47,9 @@ const Footer = () => {
                 <div className="mt-12 text-lg tracking-wide max-md:mt-10">
                   HOME
                   <br />
-                  ABOUT US
-                  <br />
+                 
                   BOOKS <br />
-                  NEW RELEASE
-                  <br />
+                 
                   CONTACT US
                   <br />
                   BLOG
@@ -75,7 +73,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-24 text-lg tracking-wide text-white max-md:mt-10 max-md:max-w-full">
-          © 2022 Arihant. All Rights Reserved.
+          © 2024 BookVerse. All Rights Reserved.
           <span className="font-bold">Privacy | Terms of Service</span>
         </div>
       </div>

@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className=" text-orange-500 font-semibold text-lg">Logo</span>
+              <span className=" text-orange-500  font-extrabold text-2xl font-caveat">BookVerse</span>
             </div>
           </div>
           <div className="hidden md:block">
@@ -25,19 +25,13 @@ const Navbar = () => {
                 Home
               </a>
               <a
-                href="#"
-                className="text-indigo-800 font-medium  text-base hover:bg-orange-400  hover:text-white px-3 py-2 rounded-md  hover:font-bold"
-              >
-                About
-              </a>
-              <a
                 href="/books"
                 className="text-indigo-800 font-medium  text-base hover:bg-orange-400  hover:text-white px-3 py-2 rounded-md  hover:font-bold"
               >
                 Books
               </a>
               <a
-                href="#"
+                href="/contact"
                 className="text-indigo-800 font-medium  text-base hover:bg-orange-400  hover:text-white px-3 py-2 rounded-md  hover:font-bold"
               >
                 Contact
@@ -95,26 +89,21 @@ const Navbar = () => {
         <div className="md:hidden" id="mobile-menu">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <a
-              href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              href="/"
+              className="  block rounded-md text-base font-medium text-indigo-800   hover:bg-orange-400  hover:text-white px-3 py-2   hover:font-bold"
             >
               Home
             </a>
+            
             <a
-              href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-            >
-              About
-            </a>
-            <a
-              href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              href="/books"
+              className=" block rounded-md text-base font-medium text-indigo-800   hover:bg-orange-400  hover:text-white px-3 py-2   hover:font-bold"
             >
               Services
             </a>
             <a
-              href="#"
-              className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              href="/contact"
+              className=" block rounded-md text-base font-medium text-indigo-800   hover:bg-orange-400  hover:text-white px-3 py-2   hover:font-bold"
             >
               Contact
             </a>
