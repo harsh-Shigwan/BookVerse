@@ -25,9 +25,11 @@ https://book-verse-three.vercel.app/
 - React Router DOM
 - Postman (for API testing)
 - formik
+- yup
 - framer-motion
 - aos
-- emailjs-com
+- @emailjs/browser
+
 
 
 ## Features
