@@ -3,6 +3,8 @@
 
 Welcome to **BookVerse**, your go-to destination for exploring and discovering new books! Whether you're an avid reader or just starting your reading journey, BookVerse has something for everyone. From bestsellers to hidden gems, we've got you covered.
 
+I created with a using **React JS [ Vite ]** for styling I used **Tailwind CSS**
+
 
 ## Running the Code
 To run the code for BookVerse, follow these steps:
