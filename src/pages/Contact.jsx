@@ -2,6 +2,7 @@ import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import emailjs from "@emailjs/browser";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   const initialValues = {
@@ -36,6 +37,7 @@ const Contact = () => {
   };
 
   return (
+    <div>
     <div className="max-w-md mx-auto  mt-5 px-4 sm:px-0">
       <h2 className="text-2xl text-indigo-800 font-semibold mb-4">
         Contact Us
@@ -115,6 +117,9 @@ const Contact = () => {
           </Form>
         )}
       </Formik>
+   
+    </div>
+    <Footer/>
     </div>
   );
 };
