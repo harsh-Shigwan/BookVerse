@@ -80,11 +80,13 @@ const BooksId = () => {
                     spirit, leaving an indelible mark of inspiration on its
                     readers.
                   </div>
-                  <div className="self-stretch mt-6 text-2xl font-bold tracking-wide text-red-500 capitalize max-md:mt-10 max-md:max-w-full">Price : ### /-</div>
+                  <div className="self-stretch mt-6 text-2xl font-bold tracking-wide text-red-500 capitalize max-md:mt-10 max-md:max-w-full">
+                    Price : ### /-
+                  </div>
                   <div className="self-stretch mt-8 text-xl font-bold tracking-wide text-indigo-800 capitalize max-md:mt-0 max-md:max-w-full">
                     Page Count : {book.pageCount}
                   </div>
-                
+
                   <button
                     className="flex gap-3 px-6 py-2 mt-16 text-base font-medium tracking-widest leading-9 uppercase rounded-lg border border-indigo-900 border-solid max-md:px-5 max-md:mt-10  "
                     onClick={handle}
@@ -93,7 +95,7 @@ const BooksId = () => {
                     <img
                       loading="lazy"
                       src="https://cdn.builder.io/api/v1/image/assets/TEMP/46223510b19cf63935c8ca05bd9fb834c713d2e1e77cecfc4690f92abdffe36b?apiKey=8d6992485656477797592f8415f51272&"
-                      className="shrink-0 self-start mt-3 aspect-[1.3] fill-indigo-900 w-[13px] rotate-180" // Added rotate-180 class
+                      className="shrink-0 self-start mt-3 aspect-[1.3] fill-indigo-900 w-[13px] rotate-180"
                     />
                   </button>
                 </div>
@@ -102,7 +104,7 @@ const BooksId = () => {
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };

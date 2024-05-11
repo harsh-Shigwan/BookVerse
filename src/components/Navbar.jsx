@@ -13,7 +13,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <a href="/" className=" text-orange-500  font-bold text-4xl  font-righteous">BookVerse</a>
+              <a
+                href="/"
+                className=" text-orange-500  font-bold text-4xl  font-righteous"
+              >
+                BookVerse
+              </a>
             </div>
           </div>
           <div className="hidden md:block">
@@ -94,12 +99,12 @@ const Navbar = () => {
             >
               Home
             </a>
-            
+
             <a
               href="/books"
               className=" block rounded-md text-base font-medium text-indigo-800   hover:bg-orange-400  hover:text-white px-3 py-2   hover:font-bold"
             >
-             Books
+              Books
             </a>
             <a
               href="/contact"

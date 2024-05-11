@@ -15,13 +15,13 @@
    }
    
    .breadcrumbs .crumbs::after {
-     content: ' > '; /* Added space around the '>' */
+     content: ' > '; 
      margin-left: 10px;
    
    }
    
    .breadcrumbs .crumbs:last-child::after {
-     content: ''; /* Set content to an empty string for the last child */
+     content: ''; 
      margin-left: 0px;
      background-color: brown;
    }
@@ -32,7 +32,7 @@
      font-size: 18px;
      font-style: normal;
      font-weight: 500;
-     line-height: 136.023%; /* 24.484px */
+     line-height: 136.023%; 
      
     color: #393280;
    }
