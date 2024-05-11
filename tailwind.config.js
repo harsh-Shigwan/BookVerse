@@ -10,6 +10,7 @@ export default {
       fontFamily:{
          manrope: ['Manrope', 'sans-serif'],
          caveat: ['Caveat', 'cursive'],
+         righteous: ['Righteous', 'sans-serif'],
         
       },
       colors: {

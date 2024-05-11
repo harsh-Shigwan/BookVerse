@@ -30,8 +30,8 @@ const TestimonialsSlider = () => {
     <div className='mb-10 mt-36'>
       <div className='container mx-auto px-4'>
         <div className='mb-12 text-center' data-aos="slide-up">
-          <h1 className='text-4xl lg:mr-10 font-bold text-indigo-800'>Testimonials</h1>
-          <h1 className='text-xl lg:mr-12'>Our clients love us!</h1>
+          <h1 className='text-4xl lg:mr-1 font-bold text-indigo-800'>Testimonials</h1>
+          <h1 className='text-xl lg:mr-0'>Our clients love us!</h1>
         </div>
         <div className='flex justify-center items-center' data-aos="zoom-in" data-aos-duration="1000">
           <Slider {...settings} className="w-full max-w-5xl">

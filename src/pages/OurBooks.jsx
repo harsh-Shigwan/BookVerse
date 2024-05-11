@@ -84,7 +84,7 @@ const OurBooks = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center mt-10" data-aos="slide-up">
+      <div className="flex justify-center mt-16 lg:ml-16" data-aos="slide-up">
         <button className="px-9 py-4 text-base tracking-widest leading-9 text-cyan-900 uppercase rounded-lg border w-[250px] max-w-xs border-cyan-900 border-solid hover:font-medium hover:test-white" onClick={() => navigate('/books')}>
           <div className="flex items-center w-[200px] justify-center gap-3">
             <div className="flex-grow w-20 ">View more Books</div>

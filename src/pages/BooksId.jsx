@@ -80,9 +80,11 @@ const BooksId = () => {
                     spirit, leaving an indelible mark of inspiration on its
                     readers.
                   </div>
-                  <div className="self-stretch mt-12 text-2xl font-bold tracking-wide text-red-500 capitalize max-md:mt-10 max-md:max-w-full">
+                  <div className="self-stretch mt-6 text-2xl font-bold tracking-wide text-red-500 capitalize max-md:mt-10 max-md:max-w-full">Price : ### /-</div>
+                  <div className="self-stretch mt-8 text-xl font-bold tracking-wide text-indigo-800 capitalize max-md:mt-0 max-md:max-w-full">
                     Page Count : {book.pageCount}
                   </div>
+                
                   <button
                     className="flex gap-3 px-6 py-2 mt-16 text-base font-medium tracking-widest leading-9 uppercase rounded-lg border border-indigo-900 border-solid max-md:px-5 max-md:mt-10  "
                     onClick={handle}
